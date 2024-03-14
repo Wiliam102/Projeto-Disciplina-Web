@@ -1,7 +1,15 @@
-*{
+body{
     padding:0;
     margin:0;
-    background-color: rgba(0, 0, 0, 0.842);
+    /*background-color: rgba(0, 0, 0, 0.842);*/
+    background-image: url(/img/pexels-jakub-novacek-924824.jpg);
+    background-size: cover;
+}
+:root{
+    --cor-1: white;
+    --cor-2: black;
+    --cor-3: bisque;
+
 }
 img{
     margin-right: 10px;
@@ -10,14 +18,14 @@ img{
 }
 p{
     padding:20px;
-    color:white;
+    color:var(--cor-1);
     font-size: 1em;
     font-weight: 100;
     text-align: center;
 }
 nav > a{
     padding: 10px;
-    color:white;
+    color:var(--cor-1);
     text-decoration: none;
 }
 
@@ -28,3 +36,22 @@ nav > a:hover{
 section{
     display: flex;
 }
+div.video{
+    background-color: black;
+    margin: 0px -20px 30px -20px;
+    padding:20px;
+    padding-bottom: 50%;
+    position:relative;
+     
+}
+div.video > iframe{
+    position:absolute;
+    top:5%;
+    left:5%;
+    width:90%;
+    height: 90%;
+}
+h3{
+    color:var(--cor-1);
+}
+background-image()
